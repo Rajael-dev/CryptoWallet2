@@ -1,0 +1,21 @@
+pt-BR:
+  actual_locale: "Português do Brasil"
+  hello: "Olá mundo!"
+  links:
+    edit: "Editar"
+    show: "Mostrar"
+    delete: "Apagar"
+    new: "Novo"
+    back: "Voltar"
+  new:
+    coin: "Nova moeda"
+    mining_type: "Novo tipo de mineração"
+  edit:
+    coin: "Editando a moeda"
+    mining_type: "Editando o tipo de mineração"
+  select: "Selecione"
+  confirm: "Tem certeza?"
+  app_name: "CryptoWallet"
+  home_messages:
+    1: "Cadastre e acompanhe todas as suas criptomoedas em um só lugar!"
+    2: "Para começar, selecione uma das opções a baixo:"

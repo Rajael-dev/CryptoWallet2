@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CryptoWallet</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= stylesheet_link_tag    params[:controller], media: 'all', 'data-turbolinks-track': 'reload' %>
+
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag params[:controller], 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+    <div class="container-fluid">
+      <ul class="nav justify-content-end">
+        <li class="nav-item">
+          <%= link_to '[Home]', root_path, class:"nav-link", class:"nav-link", style:"color: red" %>
+        </li>
+        <li class="nav-item">
+          <%= link_to 'Português', '?locale=pt-BR', class:"nav-link" %>
+        </li>
+        <li class="nav-item">
+          <%= link_to 'English', '?locale=en', class:"nav-link"%>
+        </li>
+      </ul>
+      <%= yield %>
+    </div>
+<!--    <script> $.notify("Funcionou", "success"); </script>-->
+  </body>
+</html>
